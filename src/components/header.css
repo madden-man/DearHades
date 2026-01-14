@@ -1,0 +1,28 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: "Courier Prime", monospace;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem;
+}
+
+.header-nav-items {
+    display: inline-block;
+    width: auto;
+}
+
+.header button {
+    padding: 0.5em 0.8em;
+    margin-left: 0.5rem;
+}
+
+.size-6 {
+  width: 1rem;
+  height: 1rem;
+}

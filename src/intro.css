@@ -1,0 +1,18 @@
+.intro {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    clip-path: circle(150% at 50% 50%);
+    transition: clip-path 1s ease-in-out;
+    /* Make sure it sits above other content */
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.intro--entered {
+    clip-path: circle(0% at 50% 50%);
+}
