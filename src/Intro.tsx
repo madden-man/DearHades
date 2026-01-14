@@ -48,7 +48,7 @@ export const Intro = () => {
 
     return (
         <div className={classNames('intro', { 'intro--entered': hasEntered })}>
-            {!hasEntered && <span className='courier-prime-regular entry-text' onClick={(e) => setEntered(true)}/>}
+            {!hasEntered && <span className='courier-prime-regular entry-text' onClick={() => setEntered(true)}/>}
         </div>
     )
 }
